@@ -16,6 +16,8 @@ public class Snack1 {
 		String strNum = in.nextLine();
 		int num = Integer.valueOf(strNum);
 		
+		in.close();
+		
 		if(num %2 == 0) {
 			
 			System.out.println("il numero " + num + " è pari");
