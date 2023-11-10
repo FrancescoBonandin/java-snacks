@@ -16,6 +16,7 @@ public class Snack3 {
 		
 		System.out.println("dimmi un numero intero?");
 		String strNum = in.nextLine();
+		in.close();
 		int num = Integer.valueOf(strNum);
 		
 		int[] numArr = new int[num];
