@@ -27,7 +27,7 @@ public class Bonus_Snack6 {
 			
 			int esponent = (numStr.length()-x);
 			int multiplier = 1 ;
-				for(int y = 1; y<esponent;y++) multiplier *= 10;
+				for(int y = 1; y<esponent;y++) multiplier *= BASE_10;
 			
 			if(numStr.charAt(x) == '0') {
 				

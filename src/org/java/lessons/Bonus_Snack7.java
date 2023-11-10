@@ -12,6 +12,7 @@ public class Bonus_Snack7 {
 		Scanner in = new Scanner(System.in);
 		String inputStrSeconds = in.nextLine();
 		int inputSeconds = Integer.valueOf(inputStrSeconds);
+		in.close();
 		
 		int seconds = 0;
 		int minutes = 0;
